@@ -16,7 +16,9 @@ const Navigation = () => {
 
                     <div className="nav__left">
                         <div className="nav__cart-icon">
-                            <AiOutlineShoppingCart />
+                            <Link to="/cart">
+                                <AiOutlineShoppingCart />
+                            </Link>
                             <span className="nav__cart-amout">0</span>
                         </div>
                     </div>
