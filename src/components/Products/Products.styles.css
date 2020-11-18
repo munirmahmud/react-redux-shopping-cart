@@ -1,0 +1,29 @@
+.product {
+    margin-bottom: 30px;
+}
+.product__name a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.4s;
+}
+.product__name a:hover {
+    color: #77C344;
+}
+.product__name h2 {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+.product__price {
+    color: #999;
+}
+.product__price-old {
+    text-decoration: line-through;
+}
+.product__price-discount {
+    margin-left: 0.5rem;
+    color: #222;
+}
+.product__discount-price {
+    text-align: right;
+}
