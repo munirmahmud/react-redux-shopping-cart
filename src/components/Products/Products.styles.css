@@ -1,6 +1,16 @@
 .product {
     margin-bottom: 30px;
 }
+.product__img {
+    overflow: hidden;
+}
+.product__img img {
+    transition: all 0.4s linear;
+}
+.product__img img:hover {
+    transform: scale(1.2);
+}
+
 .product__name a {
     color: #666;
     text-decoration: none;
