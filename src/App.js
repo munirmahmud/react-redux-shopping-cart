@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Navigation from './components/Navigation/Navigation';
 
 const App = () => {
     return (
         <div>
-            React
+            <Navigation />
+            
         </div>
-    )
-}
+    );
+};
 
-export default App
+export default App;
