@@ -80,4 +80,9 @@ img {
 .mt-70 {
     margin-top: 70px;
 }
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+    
+}
   
