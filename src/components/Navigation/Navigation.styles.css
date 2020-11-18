@@ -21,11 +21,13 @@
 
 .nav__cart-icon {
     font-size: 1.5rem;
-    cursor: pointer;
     position: relative;
 }
+.nav__cart-icon a {
+    color: #444444
+}
 .nav__cart-amout {
-    background-color: #0D95B5;
+    background-color: #77C344;
     width: 25px;
     height: 25px;
     line-height: 25px;
